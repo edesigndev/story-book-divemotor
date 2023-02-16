@@ -1,0 +1,48 @@
+button.link-button-light {
+  border: none;
+  background: transparent;
+  span {
+    color: #656f77;
+  }
+  svg g {
+    stroke: #656f77;
+  }
+  &:hover span {
+    --tw-text-opacity: 1;
+    color: rgb(0 120 239 / var(--tw-text-opacity));
+  }
+  &:hover svg g {
+    stroke: #0078ef;
+  }
+  &:active span {
+    --tw-text-opacity: 1;
+    color: rgb(0 58 117 / var(--tw-text-opacity));
+  }
+  &:active svg g {
+    stroke: #003a75;
+  }
+}
+
+button.link-button-dark {
+  span {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+  svg g {
+    stroke: #fff;
+  }
+  &:hover svg g {
+    stroke: #fff;
+    fill: #fff;
+  }
+  &:hover svg g path {
+    stroke: #0078ef;
+  }
+  &:active svg g {
+    stroke: #003a75;
+    fill: #003a75;
+  }
+  &:active svg g path {
+    stroke: #fff;
+  }
+}
