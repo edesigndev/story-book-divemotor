@@ -166,6 +166,22 @@ a {
   gap: 1rem;
 }
 
+.flex-column-center {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+
+  &--start {
+    align-items: flex-start;
+  }
+
+  &--end {
+    align-items: flex-end;
+  }
+}
+
 .pr-6 {
   padding-right: 1.5rem !important;
 }

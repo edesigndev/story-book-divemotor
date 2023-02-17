@@ -28,6 +28,14 @@ const routes = [
     },
   },
   {
+    path: '/typografy',
+    name: 'typografy',
+    component: lazyLoad('TypografyView'),
+    meta: {
+      layout: 'dashboard',
+    },
+  },
+  {
     path: '/buttons',
     name: 'buttons',
     component: lazyLoad('ButtonsView'),
@@ -95,6 +103,14 @@ const routes = [
     path: '/icons',
     name: 'icons',
     component: lazyLoad('IconsView'),
+    meta: {
+      layout: 'dashboard',
+    },
+  },
+  {
+    path: '/pagination',
+    name: 'pagination',
+    component: lazyLoad('PaginationView'),
     meta: {
       layout: 'dashboard',
     },

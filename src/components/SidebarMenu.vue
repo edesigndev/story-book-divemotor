@@ -12,6 +12,9 @@
           <router-link to="/colors" class="nav-link">Colores</router-link>
         </li>
         <li class="nav-item">
+          <router-link to="/typografy" class="nav-link">Tipografía</router-link>
+        </li>
+        <li class="nav-item">
           <router-link to="/buttons" class="nav-link">Botones</router-link>
         </li>
         <li class="nav-item">
@@ -37,6 +40,11 @@
         </li>
         <li class="nav-item">
           <router-link to="/icons" class="nav-link">Icons</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/pagination" class="nav-link"
+            >Paginación</router-link
+          >
         </li>
       </ul>
     </div>

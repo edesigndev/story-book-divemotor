@@ -1,5 +1,5 @@
 <template>
-  <div class="views views-dropDown">
+  <div class="views views-accordion">
     <h1>Accordion</h1>
     <section>
       <div class="card text-center mb-3">
@@ -28,6 +28,32 @@
                     <li id='layout_footer_412'><a href='https://qa.divemotor.com.pe/automoviles3' target='_blank'>AUTOMÓVILES</a></li>
             </ul>
         </div>
+</div>
+`
+            "
+          ><code class="html"></code></pre>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="card text-center mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Accordion Item</h5>
+          <p class="card-text">Es un accordion que se utiliza en sugerencias</p>
+          <div class="card-component my-4 flex-column-center">
+            <AccordionItem />
+            <AccordionItem />
+            <AccordionItem />
+          </div>
+          <pre
+            v-highlightjs="
+              `
+<div class='dm-accordiom-item'>
+  <div class='dm-accordiom-head fz-18 font-medium letspac-1'>
+    <h3 class='fz-18'> ¿EL NUEVO ACCELO ESTÁ DISEÑADO PARA LARGA DISTANCIA? </h3>
+  </div>
+  <div class='dm-accordiom-body font-paragraph' style='display: none;'> Capacidad hasta 18 asientos, Rodado Simple, Airbag piloto y copiloto, Aire acondicionado y calefaccion en cabina y salón, alzalunas electrico, puerta corrediza lateral, techo alto, encendido de boton, luces en cabina y salón, volante ajustable y multifuncion, preparada con todos los sistemas de seguridad activos y para caminos dificiles del territorio nacional. 
+  </div>
 </div>
 `
             "
