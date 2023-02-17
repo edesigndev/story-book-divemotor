@@ -1,0 +1,115 @@
+.card-campania {
+    max-width: 416px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.card-campania.card {
+    border-radius: 16px !important;
+    box-shadow: 0 4px 8px 0 rgb(101 111 156 / 30%);
+    margin: 20px;
+    max-width: 475px;
+    display: flex !important;
+    background-color: #fff;
+}
+
+.card-campania.card-span-blur {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 10px 10px 9px;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    margin: 15px 0 0 15px;
+}
+
+.card-campania img {
+    border-radius: 16px 16px 0 0;
+    margin: 0;
+}
+
+.card-campania.card-body {
+    flex: 1 1 auto;
+    height: 230px;
+}
+
+.card-campania .acortar-texto {
+    line-height: 1.5rem;
+    height: 5.5rem;
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+}
+
+.card-campania.span-card-calendar {
+    float: left;
+    padding-right: 10px;
+}
+
+.card-span-blur {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 10px 10px 9px;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    margin: 15px 0 0 15px;
+}
+
+.card-campania p {
+    font-size: 14px;
+    letter-spacing: .78px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.card-campania h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-campania .color-slate-grey {
+    color: #656f77 !important;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+
+.card-campania img {
+    border-radius: 16px 16px 0 0;
+    margin: 0;
+}
+
+.card-campania li.card {
+    border-radius: 16px;
+}
+
+img.btn-circle-arrow-2 {
+    border: 1px solid #656f77;
+    padding: 10px;
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

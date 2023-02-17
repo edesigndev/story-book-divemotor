@@ -1,0 +1,114 @@
+.content-centro-tabs {
+    grid-template-columns: 1fr 3fr;
+}
+
+.content-postventa-tabs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 50px;
+}
+
+.tab-link-lateral.tab-active {
+    color: #06c;
+    border-radius: 16px;
+    background-color: #cce0f5;
+    padding: 15px 25px;
+}
+
+.tab-link-lateral {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Work Sans;
+    padding: 15px 0;
+    line-height: 21px;
+}
+
+.tab-link {
+    list-style: none;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.tabs-postventa-content {
+    border-left: 1px solid #000;
+    padding-bottom: 50px;
+}
+
+.tab-body.tab-active {
+    display: inherit;
+}
+
+.card-accordion--postventa.acordion_active {
+    color: #06c;
+    background-color: #cce0f5;
+}
+
+.no-desktop {
+    display: none;
+}
+
+.card-accordion--postventa {
+    border-radius: 16px;
+    border: solid 1px #06c;
+    margin-bottom: 20px;
+}
+
+.card-accordion,
+.card-accordion-pv {
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    position: relative;
+    padding: 19px 36px 19px 25px;
+    line-height: normal;
+}
+
+.content-postventa-accordion {
+    padding: 0 50px;
+    text-align: left;
+}
+
+.titulo-item-detalle {
+    margin: 30px 0 20px 0;
+    font-family: Work Sans;
+}
+
+.color-light-blue {
+    color: #0066cc;
+}
+
+.btn-link-web {
+    display: flex;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #656f77;
+}
+
+.dm-accordiom-head {
+    padding: 30px 0;
+    padding-right: 30px;
+    border-top: 1px solid #000;
+    position: relative;
+    cursor: pointer;
+    font-family: Work Sans;
+}
+
+.dm-accordiom-body {
+    padding-bottom: 30px;
+    display: none;
+}
+
+.dm-accordiom-head:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    right: 0;
+    background: url(https://qa.divemotor.com.pe/o/divemotor-theme/images/img/ico-arrow-bottom.svg) no-repeat;
+    top: 45%;
+}

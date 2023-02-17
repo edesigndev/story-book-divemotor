@@ -1,0 +1,39 @@
+.container--especialista-camion {
+    padding-left: 50px;
+    border-radius: 16px;
+    background-image: radial-gradient(circle at 0 0, #f2f5ff50, #f2f5ff50 5%, #f2f5ff50 15%, #f2f5ff50 21%, #3184e650 60%, #8c98a950 92%, #f2f5ff50);
+}
+
+.content-detalle-2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 50px;
+}
+
+.titulo-tag-vehiculo {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Work Sans;
+}
+
+.btn-link-web {
+    display: flex;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #656f77;
+}
+
+.img-contacto-vehiculo {
+    margin-top: -100px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.vehiculo-especialista-texto {
+    text-align: left;
+}

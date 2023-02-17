@@ -1,0 +1,19 @@
+ .button-carousel-sm {
+     button {
+         width: 264px;
+         height: 160px;
+         border-radius: 30px;
+         background-color: #2a303f;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     button.active {
+         background-color: #f4f4f420;
+     }
+
+     button:hover {
+         background-color: #ccc;
+     }
+ }

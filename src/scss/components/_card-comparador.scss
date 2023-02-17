@@ -1,0 +1,123 @@
+.lista-column {
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+    max-width: 444px;
+}
+
+.item-dimensiones {
+    background: #fafafa;
+    padding: 66px 15px;
+    font-family: PT Sans;
+    padding-bottom: 20px;
+}
+
+.item-dimensiones img {
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.content-img-dimension {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    height: 280px;
+}
+
+.content-img-dimension {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    height: 280px;
+}
+
+.result-features--comparar {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 35px;
+    padding: 19px 16px 19px 17px;
+    color: white !important;
+}
+
+.result-features {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    text-align: center;
+    font-family: PT Sans;
+}
+
+.border-r-1 {
+    border-right-width: 1px;
+}
+
+.border-white {
+    border-right: 1px solid #fff
+}
+
+.color-vehiculo-comparar {
+    padding: 30px 0;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.border-secondary-grey {
+    border-color: #656f77;
+}
+
+.color-vehiculo {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    background: #000;
+    border-radius: 100px;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+}
+
+.color-aro-vehiculo {
+    display: none;
+}
+
+.color-nombre {
+    position: absolute;
+    width: 105px;
+    left: -34px;
+    padding: 10px 0;
+    font-weight: 600;
+    font-family: PT Sans;
+    // display: none;
+}
+
+.content-btn-cotizar {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.btn-link-web {
+    display: flex;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #656f77;
+}
+
+.color-vehiculo--active+.color-seleccionado {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 132px;
+    display: block;
+}
+
+svg {
+    display: block;
+    vertical-align: middle;
+}

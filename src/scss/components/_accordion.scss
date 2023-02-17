@@ -1,0 +1,45 @@
+.card-accordion--footer {
+    padding: 0;
+    padding-right: 36px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.card-accordion {
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    position: relative;
+    padding: 19px 36px 19px 25px;
+    line-height: normal;
+}
+
+.card-accordion.acordion_active p {
+    color: #06c !important;
+}
+
+.card-accordion:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    right: 10px;
+    background: url(https://qa.divemotor.com.pe/o/divemotor-theme/images/img/ico-arrow-bottom-white.svg) no-repeat;
+    top: 0;
+    background-position: center center;
+}
+
+.card-accordion.acordion_active:before {
+    background: url(https://qa.divemotor.com.pe/o/divemotor-theme/images/img/ico-arrow-bottom.svg) no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+}
+
+.card-accordion--footer:before {
+    content: "";
+    background: url(https://qa.divemotor.com.pe/o/divemotor-theme/images/img/ico-arrow-bottom-footer.svg) no-repeat;
+    background-position: center center;
+    top: -7px;
+}

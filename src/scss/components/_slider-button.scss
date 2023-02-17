@@ -1,0 +1,27 @@
+button {
+    border: none;
+}
+
+.slick-prev {
+    bottom: -65px;
+    top: inherit;
+    width: 60px;
+    height: 60px;
+    background: url('https://qa.divemotor.com.pe/o/divemotor-theme/images/img/ico-izquierda-black.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: calc(50% - 100px);
+    right: inherit;
+}
+
+.slick-next {
+    bottom: -65px;
+    top: inherit;
+    width: 60px;
+    height: 60px;
+    background: url('https://qa.divemotor.com.pe/o/divemotor-theme/images/img/ico-derecha-black.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: calc(50% + 20px);
+    right: inherit;
+}
