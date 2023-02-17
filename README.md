@@ -1,7 +1,21 @@
-# Vue 3 + Vite
+# DIVEMOTOR - STORYBOOK
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Introducción
 
-## Recommended IDE Setup
+`Storybook` nos permite tener una librería de nuestros componentes para navegar, ver diferentes estados, desarrollarlos e interactivamente testearlos, entre otras.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Como correr el proyecto
+
+Para `correr` el proyecto en desarrollo:
+
+```bash
+npm run dev
+```
+
+Para correr el proyecto para producción primero ejecutamos el `build`
+
+```bash
+npm run build
+```
+
+Abrimos [http://127.0.0.1:8080/](http://127.0.0.1:8080/) en el navegador para ver el resultado.
