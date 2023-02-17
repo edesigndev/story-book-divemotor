@@ -20,6 +20,14 @@ const routes = [
     },
   },
   {
+    path: '/colors',
+    name: 'colors',
+    component: lazyLoad('ColorsView'),
+    meta: {
+      layout: 'dashboard',
+    },
+  },
+  {
     path: '/buttons',
     name: 'buttons',
     component: lazyLoad('ButtonsView'),
@@ -60,14 +68,6 @@ const routes = [
     },
   },
   {
-    path: '/radio-button',
-    name: 'radio-button',
-    component: lazyLoad('RadioButtonView'),
-    meta: {
-      layout: 'dashboard',
-    },
-  },
-  {
     path: '/accordion',
     name: 'accordion',
     component: lazyLoad('AccordionView'),
@@ -87,6 +87,14 @@ const routes = [
     path: '/tabs',
     name: 'tabs',
     component: lazyLoad('TabsView'),
+    meta: {
+      layout: 'dashboard',
+    },
+  },
+  {
+    path: '/icons',
+    name: 'icons',
+    component: lazyLoad('IconsView'),
     meta: {
       layout: 'dashboard',
     },

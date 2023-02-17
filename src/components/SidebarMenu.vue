@@ -9,6 +9,9 @@
           <router-link to="/logo" class="nav-link">Logo</router-link>
         </li>
         <li class="nav-item">
+          <router-link to="/colors" class="nav-link">Colores</router-link>
+        </li>
+        <li class="nav-item">
           <router-link to="/buttons" class="nav-link">Botones</router-link>
         </li>
         <li class="nav-item">
@@ -24,11 +27,6 @@
           <router-link to="/checkbox" class="nav-link">Checkbox</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/radio-button" class="nav-link"
-            >Radio Button</router-link
-          >
-        </li>
-        <li class="nav-item">
           <router-link to="/accordion" class="nav-link">Accordion</router-link>
         </li>
         <li class="nav-item">
@@ -36,6 +34,9 @@
         </li>
         <li class="nav-item">
           <router-link to="/tabs" class="nav-link">Tabs</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/icons" class="nav-link">Icons</router-link>
         </li>
       </ul>
     </div>

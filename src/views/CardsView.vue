@@ -396,5 +396,60 @@
         </div>
       </div>
     </section>
+    <section>
+      <div class="card text-center mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Card - Articulo</h5>
+          <p class="card-text"></p>
+          <div class="card-component my-4 flex-row-center">
+            <CardArticulo />
+          </div>
+          <pre
+            v-highlightjs="
+              `
+<div class='bloque-gris-articulo'>
+  Las versiones SLT y Big Horn están equipadas con el motor 1.4L Fire EVO, que eroga una potencia de 85 CV a 5.750 rpm. Su torque es de 12,4 kgfm a 3.500 rpm. Por otro lado, la versión Laramie viene propulsada con el nuevo motor 1.3L Firefly de cuatro cilindros, con 99 CV a 6.000 rpm y un torque de 13 kgfm a 4.000 rpm. Este motor más moderno, entrega una potencia mayor a pesar de tener una cilindrada menor.
+</div>
+`
+            "
+          >
+            <code class="html"></code>
+            </pre>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="card text-center mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Card - Diferencia</h5>
+          <p class="card-text"></p>
+          <div class="card-component my-4 flex-row-center">
+            <CardDiferencia />
+          </div>
+          <pre
+            v-highlightjs="
+              `
+<div class='item-carrusel'>
+  <div class='img-version'>
+    <img
+      src='https://www.divemotor.com/cdn/f0d97f95a7.png'
+      class='img100'
+      alt='BUS - DIVEMOTOR'
+    />
+  </div>
+  <p class='font-paragraph letspac-1 fz-18 mt-20'>
+    <span class='font-bold'>DIFERENCIA 1</span> <br />
+    El Nuevo Accelo Euro 5 es el camión con en el mejor performance de su
+    catagoería asegurandote.
+  </p>
+</div>
+`
+            "
+          >
+            <code class="html"></code>
+            </pre>
+        </div>
+      </div>
+    </section>
   </div>
 </template>

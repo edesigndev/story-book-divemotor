@@ -49,3 +49,21 @@ export const MARCAS = [
     text: 'JEEP',
   },
 ];
+
+export const REDES = {
+  FACEBOOK: {
+    name: 'facebook',
+    url: 'https://qa.divemotor.com.pe/o/divemotor-theme/images/img/facebook-white.svg',
+    href: '#',
+  },
+  YOUTUBE: {
+    name: 'youtube',
+    url: 'https://qa.divemotor.com.pe/o/divemotor-theme/images/img/youtube-white.svg',
+    href: '#',
+  },
+  INSTAGRAM: {
+    name: 'instagram',
+    url: 'https://qa.divemotor.com.pe/documents/2405002/2736973/ico-instagram.svg',
+    href: '#',
+  },
+};
